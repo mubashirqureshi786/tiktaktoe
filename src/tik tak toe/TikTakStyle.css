@@ -1,0 +1,31 @@
+.board-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.board-container {
+  height: 100vh;
+  /* width: 100%; */
+  margin: 20px;
+}
+.board-square {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.board-rows button {
+  padding: 10px 30px;
+  font-size: 24px;
+  font-weight: 400;
+  border: 1px solid rgb(223, 66, 66);
+  background-color: rgb(243, 105, 105);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
